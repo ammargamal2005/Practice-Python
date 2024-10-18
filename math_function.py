@@ -36,10 +36,15 @@ def our_max(num1,num2):
     
    else :
         return None 
+
 def my_floar (num):
+    num = abs(num)
     return int(num)
+
 def my_ciel (num):
+    num = abs(num)
     return int(num)+1
+
 
 
 
