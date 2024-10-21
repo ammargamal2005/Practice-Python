@@ -19,7 +19,8 @@ def abs(num):
     if num>=0  :
         return num
     return -num
-          
+
+
         
 def our_max(num1,num2):
    num1=abs(num1)
@@ -61,3 +62,9 @@ def circle (rad):
     print( "Area of circle is", 3.14*(rad**2))
     print ("Perimeter of circle is",2*3.1415*rad)
     
+
+def mean(my_data :list):
+    sum = 0
+    for i in my_data :
+        sum += i         
+    return (sum/len(my_data))
